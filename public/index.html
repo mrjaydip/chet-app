@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wassup chat app</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <section class="chat__section">
+        <div class="brand">
+            <div style="margin-left: 0px;">
+                <img height="40" src="/wassup.png" alt="">
+                <h1 style="margin-left: 5%;">Wassup</h1>
+            </div>
+            <div style="margin-right: 2%;">
+                <h1 id="user"></h1>
+            </div>
+        </div>
+        <div class="main-div">
+            <button onclick={users(1)}>1</button>
+            <button onclick={users(2)}>2</button>
+            <button onclick={users(3)}>3</button>
+            <button onclick={users(4)}>4</button>
+        </div>
+        <div class="message__area"></div>
+        <div>
+            <textarea id="textarea" cols="30" rows="1" placeholder="Write a message..."></textarea>
+        </div>
+    </section>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/client.js"></script>
+</body>
+
+</html>
