@@ -41,6 +41,10 @@ function users(id) {
   joinUser();
 }
 
+function save(e) {
+  sendMessage(e);
+}
+
 textarea.addEventListener("keyup", (e) => {
   if (e.key === "Enter") {
     sendMessage(e.target.value);

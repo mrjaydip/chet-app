@@ -26,12 +26,15 @@
             <button onclick={users(4)}>4</button>
         </div>
         <div class="message__area"></div>
-        <div>
+        <div class="footer">
             <textarea id="textarea" cols="30" rows="1" placeholder="Write a message..."></textarea>
+            <button  style="float: right;" class="submit" onclick="save(document.getElementById('textarea').value)">Submit</button>
         </div>
     </section>
     <script src="/socket.io/socket.io.js"></script>
     <script src="/client.js"></script>
+    
+    
 </body>
 
 </html>

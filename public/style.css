@@ -49,8 +49,12 @@ section.chat__section {
   overflow-y: auto;
   padding-top: 40px;
 }
-textarea {
+.footer {
   width: 100%;
+  margin: auto;
+}
+textarea {
+  width: 90%;
   border: none;
   padding: 20px;
   font-size: 16px;
@@ -91,4 +95,17 @@ textarea {
   background-color: brown;
   padding: 5px 10px;
   margin: auto;
+}
+
+.submit {
+  border: none;
+  padding: 20px 0px;
+  font-size: 16px;
+  outline: none;
+  background-color: #8f8be8;
+  width: 10%;
+  text-align: center;
+  border: none;
+  outline: none;
+  background: #8f8be8;
 }
