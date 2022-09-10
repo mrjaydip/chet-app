@@ -20,12 +20,14 @@
             </div>
         </div>
         <div class="main-div">
-            <button onclick={users(1)}>1</button>
-            <button onclick={users(2)}>2</button>
-            <button onclick={users(3)}>3</button>
-            <button onclick={users(4)}>4</button>
+            <button onclick={users('63172ccd4174ff8eee45673e')}>bhargav</button>
+            <button onclick={users('63172c8f4174ff8eee456739')}>Viral</button>
+            <button onclick={users('63172bd8dc35fe5f5900df1b')}>jaydip</button>
+            <button onclick={groups('63187802a7213ee9083b8b67')}>Group</button>
         </div>
         <div class="message__area"></div>
+        <div class="typing">
+        </div>
         <div class="footer">
             <textarea id="textarea" cols="30" rows="1" placeholder="Write a message..."></textarea>
             <button  style="float: right;" class="submit" onclick="save(document.getElementById('textarea').value)">Send</button>

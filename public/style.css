@@ -109,3 +109,13 @@ textarea {
   outline: none;
   background: #8f8be8;
 }
+
+.typing {
+  font-style: italic;
+  font-weight: 400;
+  width: fit-content;
+  margin: 2%;
+  display: flex;
+  width: 50px;
+  justify-content: space-around;
+}
